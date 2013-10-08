@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Float Collapse</title>
+	</head>
+	<body>
+	<section>
+		<h1>Float Elements</h1>
+	<section>
+		<a href="http://css-tricks.com/all-about-floats/">Article 1 </a>
+			<p>Float is a positioning quality that is applied to page styling elements, similar to text wrap in print material.  Floats are used often and can be used for entire web layouts, and in instances to ensure that text remains readable when other elements change sizes.  You can use float by applying the qualities float left, or float right.  There are also the options of float none, or default, and float inherent, which will assume a float value from the parent element.  When the float is cleared, this means it will not move up adjacent to the float, even if there is room.  For example, a cleared footer would remain below the other items even if there is room for it to fit up next to some of the items above.</p>
+			<p>Float Collapse</p>
+			<p>An example of float collapse is if a parent element contains all floated elements, then the height would actually collapse to nothing because floated items are not calculated into the height of a section.  This problem can be fixed by clearing the float after the floated elements but before the close of that container.  The most straight forward method is to apply clear: both; to the element, however this may not always work.  If working with a div, you can empty the div by applying div style=clear: both;.  You can also apply a clearfix:after to the parent element, which actually applies hidden content after the parent element, which then clears the float. </p>
+	</section>
+	</section>
+	<section>
+			<a href="http://alistapart.com/article/css-floats-101">Article 2 </a>
+ 		 	<p>Floats are important elements to be able to use in a web document, but you have to be able to avoid float collapse and other bugs that can hinder the functional appearance of the document.  You can apply one of four qualities to a float, left, right, inherit, or none.  Inherit means that the float element will inherit the float property of its parent element.  Html normal flow is a rule that says each block element will stack on top of each other veritcally.  Floated items are taken out of the normal flow and sent to sit next the parent element, given that there is enough room in the parent element for each floated element to sit there.  Since the floated element is removed from normal flow, every element after the floated element acts as if the floated element is invisible.  This is when clear fix is necessary to solve this problem.</p>
+	</section>
+	</body>
+	</html>
