@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+	<head>
+	<title>Html Repaint</title>
+	</head>
+	<body>
+		<h1>Html Repaint</h1>
+	<section>
+			<a href="http://www.phpied.com/rendering-repaint-reflowrelayout-restyle/">Article 1</a>
+ 		 	<p>When a browser goes to display your page ont he screen, with html, CSS and JavaScript, it goes through the rendering process.  A browser turns the html source code into a DOM tree, or a data representation where html tags have a node in this tree and the text between tags also have a text node.  It then goes through the CSS code and makes sense of it, and the styling information cascades from browser defaults to page style sheets to styles coded into the html.  The next step is to create a render tree, similar to but not the same as a DOM tree.  Every node in this tree is called a frame or box and has CSS box properties like width, height, border, margin, etc.  Once the render tree is made, the browser paints that tree nodes on the screen.  To reiterate, the DOM tree is a basic structural tree, and the render tree includes the visual part of the DOM tree, and ellaborates on additional nodes for each line of text, instead of a single text node in the DOM tree.  A screen update is a repaint or redraw, done because of changes in geometric node properties like changing background color.  You want to prevent too many repaints or reflows because they can hurt user experience and slow the user interface.</p>
+	</section>
+	<section>
+			<a href="http://www.vcarrer.com/2011/02/about-repaint-and-reflow-in-javascript.html">Article 2</a>
+ 		 	<p>Repaint is when something is made visible that wasn't before, without altering the layout of the document.  This can occur when adding an outline to a document or background color.  Repaint can hurt performance because it is a process of searching through all the elements to determine visibility.  Essentially reflow is layout change and repaint is color change.  It is really important to follow tips to make rendering more efficient.  For example, clump methods together that manipulate the DOM, separately from those that draw the state.  This means that Div height and width are together, and then the style of these width and heights are together.  Here is a collection of the properties and methods that trigger layout:<a href="http://gent.ilcore.com/2011/03/how-not-to-trigger-layout-in-webkit.html">What triggers layouts?</a></p>
+	</section>
+	</body>
+	</html>

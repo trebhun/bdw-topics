@@ -5,5 +5,14 @@
 	</head>
 	<body>
 		<h1>Pseudo-elements</h1>
+	<section>
+			<a href="http://www.htmldog.com/guides/css/intermediate/pseudoelements/">Article 1</a>
+ 		 	<p> There are multiple types of psuedo-elements.  First letter pseudo elements apply to the first letter inside a box.  First line pesudo elements are applied to the top line in a box.  CSS3 has started to use 2 colons to be differentiated from pseudo classes, but to remain compatible with older browsers, a single colon is still acceptable.  Before and after pseudo elements are used with content to place it on either side of a box, meaning that you are borrowing content for presentation.  In this case they don't touch HTML, and the CSS is using another box essentially, to add styling to the 'presentation content'.  This is how the distinction can be understood between taking content into the CSS styling realm.</p>
+	</section>
+	<section>
+			<a href="http://css-tricks.com/pseudo-element-roundup/">Article 2</a>
+ 		 	<p>Pseudo-elements allow you to apply :before and :after capabilities, and essentially give you two more layers or optons for new possibilities that won't negatively affect your markup semantics.</p>  
+ 		 	<p>For example, you could have multiple background canvases, to apply multiple backgrounds and borders.  They can also be used to create unique shapes and show URL's of links in printed web pages.  It is also used for clearing floats, using clearfix.  The pseudo-element is when you apply .group:before and then adjust the display content or clear.  You can also simulate a float:center since it doesn't technically exist.  This is done through using a placeholder pseudo-element to carve out and area between columns, to then place an image there.  You can even create an entire icon set really simply, with no photos and only pseudo-elements on two elements.  A very useful feature is to be able to apply an icon, for example, when space is limited, and be able to take away if it isn't needed.  They can create full width browser bars, while allowing content to remain confined, through using one element to limit content, and the other element for the bar to reach the edges.  Another result can be a body border, through using a regular border on the left and right, and fixed position pseudo element bars on the top and bottom, without any dedicated markup.  This would have body:before, and body:after with position:fixed and left and right:0 with respectiv body:before having top:0 and bottom:0; meanwhile body would have border-left and border-right.  It is really cool that you can fade out a page when a particular link is rolled over, for instance revealing a darker version of a web page when you hover on a particular button.  This list goes on, but pseudo-elements have a TON of practical uses!</p>
+	</section>
 	</body>
-</html>
+	</html>
