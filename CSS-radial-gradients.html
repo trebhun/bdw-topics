@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+	<head>
+	<title>CSS Radial Gradients</title>
+	<style>
+		h1 {
+			background: rgb(30,87,153); /* Old browsers */
+background: -moz-radial-gradient(110px 110px, circle closest-side, rgba(0,0,0,.8) 0%, rgba(0,0,0,.44) 100%);
+background: -webkit-gradient(110px 110px, circle closest-side, rgba(0,0,0,.8) 0%, rgba(0,0,0,.44) 100%);
+background: -webkit-radial-gradient(110px 110px, circle closest-side, rgba(0,0,0,.8) 0%, rgba(0,0,0,.44) 100%);
+background: -o-radial-gradient(110px 110px, circle closest-side, rgba(0,0,0,.8) 0%, rgba(0,0,0,.44) 100%);
+background: -ms-radial-gradiententer(110px 110px, circle closest-side, rgba(0,0,0,.8) 0%, rgba(0,0,0,.44) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient (110px 110px, circle closest-side, rgba(0,0,0,.8) 0%, rgba(0,0,0,.44) 100%);
+		}
+		p:hover{
+		background: rgb(30,87,153); /* Old browsers */
+background: -moz-radial-gradient(110px 110px, circle closest-side, rgba(0,0,0,.8) 0%, rgba(0,0,0,.44) 100%);
+background: -webkit-gradient(110px 110px, circle closest-side, rgba(0,0,0,.8) 0%, rgba(0,0,0,.44) 100%);
+background: -webkit-radial-gradient(110px 110px, circle closest-side, rgba(0,0,0,.8) 0%, rgba(0,0,0,.44) 100%);
+background: -o-radial-gradient(110px 110px, circle closest-side, rgba(0,0,0,.8) 0%, rgba(0,0,0,.44) 100%);
+background: -ms-radial-gradiententer(110px 110px, circle closest-side, rgba(0,0,0,.8) 0%, rgba(0,0,0,.44) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient (110px 110px, circle closest-side, rgba(0,0,0,.8) 0%, rgba(0,0,0,.44) 100%);
+		}
+	</style>
+	</head>
+	<body>
+		<h1>CSS Radial Gradients</h1>
+	<section>
+			<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/radial-gradient">Article 1</a>
+ 		 	<p>The CSS function to create a radial gradient is radial-gradient(), and this allows you to create a visual gradient of colors radiating from the center.  The radial gradient uses the center, ending shape (either circle or ellipse) and color stops.  This is not a CSS color, but an image, with not intrinsic dimensions or no preferred size or ratio.  The size will match the element it is applied to.  If you want a repeating gradient you must use CSS repeating-radial-gradient</p>
+ 		 	<p>The syntax for radial gradients looks like this, radial-gradient(definition of the contour [ex: circle], size [length, percentage], position of the ending shape [at position]),(list of color stops [color, percentage, length)</p>
+	</section>
+	<section>
+			<a href="http://www.colorzilla.com/gradient-editor/">Article 2</a>
+ 		 	<p>This webpage allows you to create a gradient and then see how that translates into code.  This is helpful to understand how the syntax from the first article is actually applied to CSS.  The radial gradient can be seen on this page when hovering over a paragraph. When looking at this radial gradient, you can see a color stop is the pink color.  This helped me understand what a color stop was, and how the adjustments and changes in a radial pattern would then corrolate to the CSS in terms of percentages and so on.  As a contrast, the heading has a linear gradient as the background.</p>  
+ 		 	<p></p>
+	</section>
+	</body>
+	</html>
